@@ -9,13 +9,13 @@ mv		– move
 cp		– copy
 rm     		– delete
 
-touch test01.txt 	        	 – create file
+touch test01.txt 	        	– create file
 cat test01.txt  	       	 – print the content of the file (">" to redirect the output to another file, -n to print certain number of lines)
 cat >> test01.txt 	      	– open file for editing (Ctrl+C - save and close file)
 find . -name test02.txt 	– find all files named "test02.txt"
 head -5 test01.txt		– show first 5 strings from file
 tail -3 test01.txt		– show last 3 strings from file
-nano test01.txt 	        	– open file in Nano text editor
+nano test01.txt 	        – open file in Nano text editor
 cp t01.txt t02.txt old    	– copy 2 files (t01.txt, t02.txt) to "old" directory
 less -s textfile01.txt    	–  rewind the text forward and back, search in both directions, go directly to the end or to the beginning of the file
 
