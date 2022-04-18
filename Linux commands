@@ -1,31 +1,32 @@
 #
 pwd 		– print working directory
-ls 		  – list directory contents
-cd 		  – change directory (go to home folder)
-cd .. 	– move a lvl up from directory (cd ../../.. – three lvls up)
+ls 		– list directory contents
+cd 		– change directory (go to home folder)
+cd .. 		– move a lvl up from directory (cd ../../.. – three lvls up)
 cd - 		– return to the previous directory
 mkdir	 	– make directory
-mv		  – move
-cp		  – copy
-rm      - delete
+mv		– move
+cp		– copy
+rm     		– delete
 
-touch test01.txt 	        – create file
-cat test01.txt  	        – print the content of the file (">" to redirect the output to another file, -n to print certain number of lines)
-cat >> test01.txt 	      – open file for editing (Ctrl+C - save and close file)
+touch test01.txt 	        	 – create file
+cat test01.txt  	       	 – print the content of the file (">" to redirect the output to another file, -n to print certain number of lines)
+cat >> test01.txt 	      	– open file for editing (Ctrl+C - save and close file)
 find . -name test02.txt 	– find all files named "test02.txt"
-head -5 test01.txt		    – show first 5 strings from file
-tail -3 test01.txt		    – show last 3 strings from file
-nano test01.txt 	        – open file in Nano text editor
-cp t01.txt t02.txt old    – copy 2 files (t01.txt, t02.txt) to "old" directory
-less -s textfile01.txt    - rewind the text forward and back, search in both directions, go directly to the end or to the beginning of the file
+head -5 test01.txt		– show first 5 strings from file
+tail -3 test01.txt		– show last 3 strings from file
+nano test01.txt 	        	– open file in Nano text editor
+cp t01.txt t02.txt old    	– copy 2 files (t01.txt, t02.txt) to "old" directory
+less -s textfile01.txt    	–  rewind the text forward and back, search in both directions, go directly to the end or to the beginning of the file
 
 vim test01.txt 	    – open file in Vim text editor (i –  open editing, Esc –  close editing, :wq+Enter –  save and exit, :q! –  exit without saving)
 
 mv temp/test01.txt temp/test02.txt archive	    – move 2 files (test01.txt, test02.txt) from "temp" to "archive" directory
 
-mkdir -p lib/folder{001..100} 		– make directory "lib" and creates 100 directories inside it named from "folder001" to "folder100"
+mkdir -p lib/folder{001..100} 	– make directory "lib" and creates 100 directories inside it named from "folder001" to "folder100"
 
 tail -F any1.txt | grep --line-buffered Alex | cat >> texample2.txt	    – output all "Alex" matches from "any1" and write them to "texample2.txt" in real time
+
 
 
 
