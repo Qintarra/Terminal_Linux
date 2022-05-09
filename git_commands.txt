@@ -7,3 +7,6 @@ git config --global user.email "e@mail"
 git clone <url> –  download projecct from remote repo
 
 git init <directory name> – create a local repo
+
+git status –  check the untracked and tracked files and changes
+git status -s – short list of changes
