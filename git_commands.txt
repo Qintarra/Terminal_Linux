@@ -5,3 +5,5 @@ git config --global user.name "Username"
 git config --global user.email "e@mail"
 
 git clone <url> –  download projecct from remote repo
+
+git init <directory name> – create a local repo
