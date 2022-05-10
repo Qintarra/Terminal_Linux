@@ -24,3 +24,6 @@ git diff <file-branch>..<second-branch> – see the differences between two give
 git add <filename> –  stages the file 
 git add . –  stage all files
 git add *.txt – stage all txt files
+
+git commit -m <message> – commit all staged files with given message
+git commit --amend -m <message> – add changes to the last commit
