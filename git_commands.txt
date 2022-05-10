@@ -12,3 +12,11 @@ git status –  check the untracked and tracked files and changes
 git status -s – short list of changes
 
 git diff – show changes in files that have not yet been added to the commit index (staged)
+git diff --staged –  show what has been added to the index with git add, but has not yet been committed
+git diff HEAD –  show what has changed since the last commit
+git diff HEAD^ –  show what has changed since the penultimate commit
+git diff <branch> –  compare the current branch with the given one
+git difftool -d is the same as diff but shows the changes in the given difftool
+git difftool -d master.. –  show the changes made in the current branch
+git diff --stat –  show statistics of which files have been changed and how
+git diff <file-branch>..<second-branch> – see the differences between two given branches
