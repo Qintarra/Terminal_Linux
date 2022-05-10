@@ -10,3 +10,5 @@ git init <directory name> – create a local repo
 
 git status –  check the untracked and tracked files and changes
 git status -s – short list of changes
+
+git diff – show changes in files that have not yet been added to the commit index (staged)
