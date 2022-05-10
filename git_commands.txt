@@ -27,3 +27,7 @@ git add *.txt – stage all txt files
 
 git commit -m <message> – commit all staged files with given message
 git commit --amend -m <message> – add changes to the last commit
+
+git log – shows a list of all the commits made to a repository
+git log --follow <file> – list changes to the current file, including renames
+git log --no-merges main.. – view the change history for the current branch only
