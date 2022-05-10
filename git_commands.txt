@@ -20,3 +20,7 @@ git difftool -d is the same as diff but shows the changes in the given difftool
 git difftool -d master.. –  show the changes made in the current branch
 git diff --stat –  show statistics of which files have been changed and how
 git diff <file-branch>..<second-branch> – see the differences between two given branches
+
+git add <filename> –  stages the file 
+git add . –  stage all files
+git add *.txt – stage all txt files
