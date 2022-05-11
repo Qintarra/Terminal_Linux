@@ -52,4 +52,4 @@ git clean -xdf
 
 git restore --staged <file> –  unstage file
 
-git revert –  revert some existing commits
+git revert <commit> –  revert some existing commits
