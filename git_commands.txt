@@ -41,3 +41,11 @@ git reset --hard HEAD~3 – the last three commits (HEAD, HEAD^, and HEAD~2) wer
 git checkout –  switch (git switch) branches or restore (git restore) working tree files
 git checkout -- <file> –  discard local changes in file
 git checkout . –  discard local changes in all files
+
+git clean 	–  remove untracked files from the working tree
+git clean -n	–  to see a dry run
+git clean -f	–  to force untracked file deletion
+git clean -f -d 	–  to remove untracked directories
+git clean -f -x	–  to remove untracked .gitignore files
+git clean -i 	–  switch to do an interactive ‘git clean’
+git clean -xdf
