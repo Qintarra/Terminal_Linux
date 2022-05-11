@@ -37,3 +37,7 @@ git reset –  remove the current HEAD to the specified state (undo git add)
 git reset --soft <commit>	 –  does not touch the index file or the working tree
 git reset --hard <commit> –  resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded.
 git reset --hard HEAD~3 – the last three commits (HEAD, HEAD^, and HEAD~2) were bad and you do not want to ever see them again. (Do not do this if you have already given these commits to somebody else.)
+
+git checkout –  switch (git switch) branches or restore (git restore) working tree files
+git checkout -- <file> –  discard local changes in file
+git checkout . –  discard local changes in all files
