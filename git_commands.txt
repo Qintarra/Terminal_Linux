@@ -31,3 +31,9 @@ git commit --amend -m <message> – add changes to the last commit
 git log – shows a list of all the commits made to a repository
 git log --follow <file> – list changes to the current file, including renames
 git log --no-merges main.. – view the change history for the current branch only
+
+git reset <file> – remove files from the commit index (changes are not lost)
+git reset –  remove the current HEAD to the specified state (undo git add)
+git reset --soft <commit>	 –  does not touch the index file or the working tree
+git reset --hard <commit> –  resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded.
+git reset --hard HEAD~3 – the last three commits (HEAD, HEAD^, and HEAD~2) were bad and you do not want to ever see them again. (Do not do this if you have already given these commits to somebody else.)
