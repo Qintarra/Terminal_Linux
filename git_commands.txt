@@ -74,4 +74,6 @@ git merge <branch> –  merge changes from current branch into specified
 git merge --no-ff <branch> – merge branches without "fast forward" mode
 git merge <bookmark>/<branch> - merge the changes of the local branch and the given remote branch
 
+git fetch <url> –  fetch the entire history from the given remote repository
+
 
