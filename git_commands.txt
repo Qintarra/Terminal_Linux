@@ -62,3 +62,11 @@ gitignore 	–  specifies intentionally untracked files to ignore
 	doc/*.txt	–  ignore doc/notes.txt, but not doc/server/arch.txt
 	doc/**/*.pdf	–  ignore all .pdf files in the doc/ directory
 git ls-files --other --ignored --exclude-standard – lists all ignored files
+
+git show-branch -a – show both remote-tracking branches and local branches
+git branch <branch name> –  create a new branch
+git checkout -b <branch name>	–  create a new branch and switch to it 
+git branch -d <branch> – delete a merged branch (-D to delete branch whether merged or not)
+git branch -m <oldname> <newname> – rename the branch
+
+
