@@ -53,3 +53,12 @@ git clean -xdf
 git restore --staged <file> –  unstage file
 
 git revert <commit> –  revert some existing commits
+
+gitignore 	–  specifies intentionally untracked files to ignore
+	*.log	–  no .log files
+	!error.log	–  but do track error.log file, even thou we ignoring .log files above
+	/TODO 	–  only ignore the TODO file in the current directory, not subdir /TODO
+	build/	–  ignore all files on the build/ directory
+	doc/*.txt	–  ignore doc/notes.txt, but not doc/server/arch.txt
+	doc/**/*.pdf	–  ignore all .pdf files in the doc/ directory
+git ls-files --other --ignored --exclude-standard – lists all ignored files
