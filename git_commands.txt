@@ -76,4 +76,7 @@ git merge <bookmark>/<branch> - merge the changes of the local branch and the gi
 
 git fetch <url> –  fetch the entire history from the given remote repository
 
+git pull (git fetch + git merge)	– update the local version of a repository from a remote
+git pull <remote><branch> – Specify a specific remote branch to merge
+
 
