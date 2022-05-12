@@ -69,4 +69,9 @@ git checkout -b <branch name>	–  create a new branch and switch to it
 git branch -d <branch> – delete a merged branch (-D to delete branch whether merged or not)
 git branch -m <oldname> <newname> – rename the branch
 
+git merge –  join two or more development histories together
+git merge <branch> –  merge changes from current branch into specified
+git merge --no-ff <branch> – merge branches without "fast forward" mode
+git merge <bookmark>/<branch> - merge the changes of the local branch and the given remote branch
+
 
