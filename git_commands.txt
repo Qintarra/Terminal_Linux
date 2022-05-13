@@ -79,4 +79,9 @@ git fetch <url> –  fetch the entire history from the given remote repository
 git pull (git fetch + git merge)	– update the local version of a repository from a remote
 git pull <remote><branch> – Specify a specific remote branch to merge
 
+git remote – view a list of available remote repositories (-v for detailed list)
+git remote add <remote><url> – add a new remote repository
+git remote remove <name> –  remove the remote named
+git remote rename <old> <new> –  rename
+
 
