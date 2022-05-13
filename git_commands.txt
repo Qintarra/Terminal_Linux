@@ -95,4 +95,10 @@ git mv <file-original> <file-renamed> – change filename and add to commit inde
 git rm <file> – remove a file from the working directory and add information about the removal to the index
 git rm --cached <file> – delete the file from the repository but keep it locally
 
+git stash –  saves the uncommitted changes locally, allowing to make changes, switch branches, and perform other git operations
+git stash save <stashname> – save working directory to the stash
+git stash list	–  view stashes
+git stash pop | apply –  bring back and reomve from stash |leave in
+git stash drop –  remove stash
+
 
