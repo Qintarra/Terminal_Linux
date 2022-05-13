@@ -84,4 +84,10 @@ git remote add <remote><url> – add a new remote repository
 git remote remove <name> –  remove the remote named
 git remote rename <old> <new> –  rename
 
+git push –  send (push) the commits from local branch in local repository to the remote repository
+git push <remote> <branch> –  push a branch to the specified repository and remote branch
+git push <bookmark> :<branch> –  delete the specified branch in the remote repository
+git push -u origin master –  if the remote branch is not set as tracked, then make it so
+git push --set-upstream origin <branch>
+
 
