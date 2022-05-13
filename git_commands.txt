@@ -90,4 +90,6 @@ git push <bookmark> :<branch> –  delete the specified branch in the remote rep
 git push -u origin master –  if the remote branch is not set as tracked, then make it so
 git push --set-upstream origin <branch>
 
+git mv <file-original> <file-renamed> – change filename and add to commit index
+
 
