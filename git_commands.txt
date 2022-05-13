@@ -92,4 +92,7 @@ git push --set-upstream origin <branch>
 
 git mv <file-original> <file-renamed> – change filename and add to commit index
 
+git rm <file> – remove a file from the working directory and add information about the removal to the index
+git rm --cached <file> – delete the file from the repository but keep it locally
+
 
