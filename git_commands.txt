@@ -116,3 +116,7 @@ To avoid confilcts:
 git checkout <feature>
 git rebase main	–  rebase «feature» branch onto main
 
+git rebase -i main	–  clean up branches commits before rebasing onto main
+git rebase -i HEAD~5 –  rebase the last 5 commits on current branch
+
+
