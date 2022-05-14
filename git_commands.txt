@@ -119,4 +119,7 @@ git rebase main	–  rebase «feature» branch onto main
 git rebase -i main	–  clean up branches commits before rebasing onto main
 git rebase -i HEAD~5 –  rebase the last 5 commits on current branch
 
-
+git tag <tagname>	–  make a commit with tag
+git tag --list	–  view tags
+git push --tags –  push tags (only tags)
+git checkout <tagname>	–  check it out
