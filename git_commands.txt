@@ -113,4 +113,6 @@ To avoid confilcts:
 	No edits to whitespaces (tab, spaces, linebreaks)
 	Merge ofthen
 
+git checkout <feature>
+git rebase main	–  rebase «feature» branch onto main
 
