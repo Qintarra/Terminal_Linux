@@ -107,3 +107,10 @@ Conflict solving:
 	git diff	–  resolve manualy
 	git revert 5b14fc	–  undo merge
 	user merge tool
+	
+To avoid confilcts: 
+	Use short commits	(10 short comits better then 1 large)
+	No edits to whitespaces (tab, spaces, linebreaks)
+	Merge ofthen
+
+
