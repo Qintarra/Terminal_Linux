@@ -101,4 +101,9 @@ git stash list	–  view stashes
 git stash pop | apply –  bring back and reomve from stash |leave in
 git stash drop –  remove stash
 
-
+Conflict solving:
+	git merge --abort	–  abort merge
+	git checkout --Xours --Xtheirs	–  resolve by selecting version
+	git diff	–  resolve manualy
+	git revert 5b14fc	–  undo merge
+	user merge tool
